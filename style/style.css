@@ -115,6 +115,32 @@ body {
     border: 4px solid #3882F6;
 }
 
+.third-content {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-content .text {
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    width: 1032px;
+    color: #1F2937;
+}
+
+.third-content .author {
+    font-size: 36px;
+    text-align: end;
+    width: 1032px;
+    margin-top: -52px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
 button {
     width: 140px;
     height: 42px;
